@@ -4,6 +4,7 @@ var getLastname = function(employee)
    return  last;
 }
 
+console.log("lastname", getLastname(employees[0]));
 
 d3.select("ol")
 .selectAll("li")
