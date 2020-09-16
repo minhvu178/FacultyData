@@ -7,6 +7,6 @@ d3.select('body')
 .data(employees)
 .enter()
 .append("h2")
-.style("color","green")
+.style("color","red")
 .text(getFirstName);
 
